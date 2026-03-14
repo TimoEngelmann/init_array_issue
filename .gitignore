@@ -1,0 +1,6 @@
+/Drivers/
+/build/
+/.mxproject
+/cmake/
+/startup_stm32h753xx.s
+/STM32H753XX_FLASH.ld
