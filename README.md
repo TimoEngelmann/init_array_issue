@@ -234,10 +234,11 @@ Steps to Use the Project in ZIP-File:
 2. Install the Serial Monitor extension in VSCode (https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-serial-monitor)
    or use another RS232 serial tool
 3. Connect the NUCLEO-H753ZI board via USB
-4. Double-click on init_array_issue.code-workspace
-5. Select the debug target
-6. Build the project
-7. Connect the Serial Monitor at 115200 baud to the board
-8. Start the debugger and check the output
+4. Open `init_array_issue.ioc` in STM32CubeMX v6.17.0 and click the button `GENERATE CODE`
+5. Double-click on init_array_issue.code-workspace
+6. Select `debug` as target
+7. Build the project
+8. Connect the Serial Monitor at 115200 baud to the board
+9. Start the debugger and check the output
 
 Hint: if you change something like `STARM_TOOLCHAIN_CONFIG` or the `STM32H753XX_FLASH.ld` file, make sure the project is completely rebuilt.
